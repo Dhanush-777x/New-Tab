@@ -36,7 +36,7 @@ const StyledMaterialPicker = styled.div`
     box-shadow: none;
   }
   > div {
-    border: 2px solid var(--default-color);
+    // border: 2px solid var(--default-color);
   }
 `
 interface props {
