@@ -1057,7 +1057,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     box-shadow: none;
   }
   > div {
-    // border: 2px solid var(--default-color);
+    border: 2px solid var(--default-color);
   }
 `,hI=({colors:e,setColors:t})=>{const[n,r]=B.useState(Object.keys($i[0].colors)[0]),a=i=>{const o={...e};o[n]=i.hex,t(o)};return k.jsxs(fI,{children:[k.jsx("div",{children:Object.keys(e).map(i=>k.jsx(dI,{active:i===n,onClick:()=>r(i),children:i},i))}),k.jsx(pI,{children:k.jsx(WF,{color:e[n],onChange:i=>i&&a(i)})})]})},gI=D.button`
   color: ${({inverted:e})=>e?"var(--bg-color)":"var(--default-color)"};
@@ -1525,7 +1525,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `,lL=D.img`
   height: 400px;
   width: 400px;
-  border: 2px solid var(--default-color);
+  // border: 2px solid var(--default-color);
   padding: 10px;
   object-fit: cover;
 
