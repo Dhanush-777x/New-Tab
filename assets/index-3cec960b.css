@@ -114,10 +114,10 @@ body {
   overflow: hidden;
 }
 div{
-  border-radius: 5px;
+  border-radius: 8px;
 }
 button{
-  border-radius: 5px;
+  border-radius: 8px;
 }
 p {
   margin: 0;
