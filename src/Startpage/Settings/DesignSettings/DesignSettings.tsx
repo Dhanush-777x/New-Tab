@@ -87,11 +87,11 @@ const ImagePreview = styled.img`
   margin: 10px;
   height: 300px;
   width: 300px;
-  border: 1px solid var(--default-color);
+  // border: 1px solid var(--default-color);
   padding: 5px;
   object-fit: cover;
 
-  animation: circling-shadow-small 4s ease 0s infinite normal;
+  // animation: circling-shadow-small 4s ease 0s infinite normal;
 `
 const StyledAccordionPreview = styled.div<{ colorVar: string }>`
   border: 4px solid ${({ colorVar }) => `var(${colorVar})`};
