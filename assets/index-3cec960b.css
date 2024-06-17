@@ -113,6 +113,12 @@ body {
   color: var(--default-color);
   overflow: hidden;
 }
+div{
+  border-radius: 5px;
+}
+button{
+  border-radius: 5px;
+}
 p {
   margin: 0;
 }
