@@ -30,135 +30,143 @@ export interface linkGroup {
 
 export const links: linkGroup[] = [
   {
-    title: "Reddit",
-    links: [
+    "title": "Social Media",
+    "links": [
       {
-        label: "r/startpages",
-        value: "https://www.reddit.com/r/startpages/",
+        "label": "Gmail",
+        "value": "https://mail.google.com/mail/u/0/#inbox"
       },
       {
-        label: "r/unixporn",
-        value: "https://www.reddit.com/r/unixporn/",
+        "label": "Outlook",
+        "value": "https://outlook.office365.com/mail/"
       },
       {
-        label: "r/rainmeter",
-        value: "https://www.reddit.com/r/rainmeter/",
+        "label": "Reddit",
+        "value": "https://www.reddit.com/"
       },
       {
-        label: "r/AnimalsBeingDerps",
-        value: "https://www.reddit.com/r/AnimalsBeingDerps/",
+        "label": "Linkedin",
+        "value": "https://www.linkedin.com/feed/"
       },
-    ],
+      {
+        "label": "Discord",
+        "value": "https://discord.com/"
+      },
+      {
+        "label": "Telegram",
+        "value": "https://web.telegram.org/a/"
+      },
+      {
+        "label": "Github",
+        "value": "https://github.com/"
+      },
+      {
+        "label": "Youtube",
+        "value": "https://www.youtube.com/"
+      }
+    ]
   },
   {
-    title: "3D Modelling",
-    links: [
+    "title": "Academia",
+    "links": [
       {
-        label: "Blender",
-        value: "https://www.blender.org/",
+        "label": "LMS",
+        "value": "https://lms.snuchennai.edu.in/login/index.php"
       },
       {
-        label: "BlenderGuru",
-        value: "https://www.blenderguru.com/",
+        "label": "POD",
+        "value": "https://snuchennai.pod.ai/d/JM8eMH/"
       },
       {
-        label: "Poliigon",
-        value: "https://www.poliigon.com/",
+        "label": "Talently",
+        "value": "https://system.talentely.com/academy/courses"
       },
       {
-        label: "Blender tutorial",
-        value:
-          "https://www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U",
+        "label": "Network Geek",
+        "value": "https://labs.networkgeek.in/#/main"
       },
       {
-        label: "The other Blender tutorial",
-        value:
-          "https://www.youtube.com/watch?v=bpvh-9H8S1g&list=PL8eKBkZzqDiU-qcoaghCz04sMitC1yx6k&index=1",
+        "label": "NPTEL",
+        "value": "https://swayam.gov.in/mycourses"
       },
-    ],
+      {
+        "label": "Unstop",
+        "value": "https://unstop.com/u/dhanush_007"
+      }
+    ]
   },
   {
-    title: "Design",
-    links: [
+    "title": "AI",
+    "links": [
       {
-        label: "PixlrX",
-        value: "https://pixlr.com/x/",
+        "label": "ChatGPT",
+        "value": "https://chatgpt.com/"
       },
       {
-        label: "AI Image Enlarger",
-        value: "https://bigjpg.com/en",
+        "label": "Gemini",
+        "value": "https://gemini.google.com/app?hl=en-IN"
       },
       {
-        label: "Img to Svg Converter",
-        value: "https://picsvg.com/",
-      },
-      {
-        label: "Affinity",
-        value: "https://affinity.serif.com/en-us/tutorials/designer/desktop/",
-      },
-      {
-        label: "Affinity - YT",
-        value: "https://www.youtube.com/c/AffinityRevolution/playlists",
-      },
-    ],
+        "label": "Perplexity",
+        "value": "https://www.perplexity.ai/"
+      }
+    ]
   },
   {
-    title: "Music",
-    links: [
+    "title": "Life",
+    "links": [
       {
-        label: "i wanna be a cowboy",
-        value: "https://www.youtube.com/watch?v=8zWz92f_HGs",
+        "label": "Todoist",
+        "value": "https://todoist.com/app/today"
       },
       {
-        label: "let the bodies hit the floor",
-        value: "https://www.youtube.com/watch?v=b--VKaCB9u0",
+        "label": "Google Calendar",
+        "value": "https://calendar.google.com/calendar/u/0/r/week"
       },
       {
-        label: "Nobody Kanna Cross It",
-        value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
+        "label": "Clockify",
+        "value": "https://app.clockify.me/tracker"
       },
       {
-        label: "Smug Dancin",
-        value: "https://www.youtube.com/watch?v=eNZ9Od1jQ4Q",
+        "label": "Notion",
+        "value": "https://www.notion.so/DHANUSH-S-M-s-DASHBOARD-0b1d72b8939546f59d58e8aa10822e29"
       },
       {
-        label: "Utamaru - The Sanctified Mind Cover",
-        value: "https://www.youtube.com/watch?v=MHlJKLlS07U",
-      },
-    ],
+        "label": "Cashew",
+        "value": "https://budget-track.web.app"
+      }
+    ]
   },
   {
-    title: "Sauce",
-    links: [
+    "title": "Others",
+    "links": [
       {
-        label: "Pictures - DeathAndMilk",
-        value: "https://www.instagram.com/deathandmilk_/",
+        "label": "Dhanush S M",
+        "value": "https://dhanushsm.vercel.app"
       },
       {
-        label: "Icons - FontAwesome",
-        value: "https://fontawesome.com/icons",
+        "label": "Canva",
+        "value": "https://www.canva.com/"
       },
       {
-        label: "Text Flicker - CodeMyUI",
-        value:
-          "https://codemyui.com/crt-screen-text-flicker-animation-in-pure-css/",
+        "label": "Figma",
+        "value": "https://www.figma.com/files/recent?fuid=1194121916811225480"
       },
       {
-        label: "Wave Animation - mburakerman",
-        value: "https://codepen.io/mburakerman/pen/eRZZEv",
+        "label": "Tiny Wow",
+        "value": "https://tinywow.com/"
       },
       {
-        label: "Da real sauce ԅ(♡﹃♡ԅ)",
-        value: "https://www.youtube.com/watch?v=qr89xoZyE1g",
+        "label": "Google Meet",
+        "value": "https://workspace.google.com/products/meet/"
       },
       {
-        label: "Even more real sauce ( ͡° ͜ʖ ͡°)",
-        value: "https://www.youtube.com/watch?v=VLhJOd_TFiI",
-      },
-    ],
-  },
+        "label": "Torrent-proxy",
+        "value": "http://us7.proxysite.one/index.php?q=nKeppaRvY5FpZ2hqql6mpZA"
+      }
+    ]
+  }
 ]
-
 export const images: dataElem[] = [
   { label: "pic_1", value: pic_1 },
   { label: "pic_2", value: pic_2 },
