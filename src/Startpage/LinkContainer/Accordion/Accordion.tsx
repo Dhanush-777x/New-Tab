@@ -23,9 +23,9 @@ const StyledAccordionGroup = styled.div`
   display: flex;
   padding: 0 10px;
   flex-direction: row;
-  border-right: 3px solid var(--default-color);
+  // border-right: 3px solid var(--default-color);
   :first-of-type {
-    border-left: 3px solid var(--default-color);
+    // border-left: 3px solid var(--default-color);
   }
 `
 
