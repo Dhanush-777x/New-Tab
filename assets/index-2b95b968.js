@@ -84,9 +84,9 @@ Error generating stack: `+i.message+`
   display: flex;
   padding: 0 10px;
   flex-direction: row;
-  border-right: 3px solid var(--default-color);
+  // border-right: 3px solid var(--default-color);
   :first-of-type {
-    border-left: 3px solid var(--default-color);
+    // border-left: 3px solid var(--default-color);
   }
 `,O2=D.div`
   height: 100%;
