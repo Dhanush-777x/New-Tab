@@ -230,7 +230,7 @@ export const themes: Theme[] = [
     colors: {
       "--bg-color": "#24273A",
       "--default-color": "#CAD3F5",
-      "--accent-color": "#9c95d8",
+      "--accent-color": "#b4befe",
       "--accent-color2": "#8AADF4",
     },
   },
