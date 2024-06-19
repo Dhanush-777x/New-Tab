@@ -24,6 +24,20 @@ const StyledStartpage = styled.div`
   height: calc(100% - 100px);
 `
 
+const levitatingAnimation = `
+  @keyframes levitate {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+`;
+
 const Image = styled.img`
   height: 400px;
   width: 400px;
@@ -31,10 +45,13 @@ const Image = styled.img`
   object-fit: cover;
   margin-bottom: 20px;
   display: block;
+  animation: levitate 3s ease-in-out infinite;
 
   @media (max-width: 1024px) {
     display: none;
   }
+  ${levitatingAnimation}
+  
 `;
 
 export const Startpage = () => {
