@@ -27,12 +27,15 @@ const StyledStartpage = styled.div`
 const Image = styled.img`
   height: 400px;
   width: 400px;
-  border: 100% solid var(--default-color);
   padding: 10px;
   object-fit: cover;
+  margin-bottom: 20px;
+  display: block;
 
-  // animation: circling-shadow 4s ease 0s infinite normal;
-`
+  @media (max-width: 1024px) {
+    display: none;
+  }
+`;
 
 export const Startpage = () => {
   const [img, setImg] = useState(DesignSettings.getWithFallback().image)
